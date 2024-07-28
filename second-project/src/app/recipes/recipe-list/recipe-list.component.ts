@@ -9,5 +9,6 @@ import { RecipeItemComponent } from './recipe-item/recipe-item.component';
   styleUrl: './recipe-list.component.css'
 })
 export class RecipeListComponent {
+  recipes= [];
 
 }
