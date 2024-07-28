@@ -1,0 +1,14 @@
+<button class="btn btn-primary" [disabled]="!buttonStatus">
+  {{ buttonTitle }}
+</button>
+<hr />
+<label for="">Username</label>
+<input type="text" [(ngModel)]="usernameInput" />
+<p>{{ usernameInput }}</p>
+<button
+  class="btn btn-warning"
+  [disabled]="!usernameInput.trim()"
+  (click)="usernameInput = ' '"
+>
+  Reset User
+</button>
