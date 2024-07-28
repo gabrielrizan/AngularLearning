@@ -10,5 +10,6 @@ import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 })
 export class RecipeListComponent {
   recipes= [];
+  
 
 }
